@@ -1,0 +1,42 @@
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Encoding.Test.dll
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Encoding.Test.pdb
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Laba_3.exe
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Laba_3.pdb
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Laba_3.exe.config
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\User\source\repos\Laba_3\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\User\source\repos\Laba_3\Encoding.Test\obj\Debug\Encoding.Test.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Laba_3\Encoding.Test\obj\Debug\Encoding.Test.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Laba_3\Encoding.Test\obj\Debug\Encoding.Test.csproj.CopyComplete
+C:\Users\User\source\repos\Laba_3\Encoding.Test\obj\Debug\Encoding.Test.dll
+C:\Users\User\source\repos\Laba_3\Encoding.Test\obj\Debug\Encoding.Test.pdb
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Encoding.Test.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Encoding.Test.pdb
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Laba_3.exe
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Laba_3.pdb
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Laba_3.exe.config
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\obj\Debug\Encoding.Test.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\obj\Debug\Encoding.Test.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\obj\Debug\Encoding.Test.csproj.CopyComplete
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\obj\Debug\Encoding.Test.dll
+C:\Users\User\source\repos\Laba_3 vers.2.0\Encoding.Test\obj\Debug\Encoding.Test.pdb
