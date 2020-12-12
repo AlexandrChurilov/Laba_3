@@ -14,7 +14,7 @@ namespace Encoding.Test
             string y = "скорпион";
             string expected = "поздравляю, ты получил исходный текст!!!";
              //act
-            VigenereCipher a = new VigenereCipher("абвгдеёжзийклмнопрстуфхцчшщъыьэюя");
+            VigenereCipher a = new VigenereCipher(true);
             string actual = a.Decrypt(x, y);
 
             //assert
@@ -29,7 +29,7 @@ namespace Encoding.Test
             string y = "скорпион";
             string expected = "бщцфаирщри, бл ячъбиуъ щбюэсяёш гфуаа!!!";
             //act
-            VigenereCipher a = new VigenereCipher("абвгдеёжзийклмнопрстуфхцчшщъыьэюя");
+            VigenereCipher a = new VigenereCipher(true);
             string actual = a.Encrypt(x, y);
 
             //assert
