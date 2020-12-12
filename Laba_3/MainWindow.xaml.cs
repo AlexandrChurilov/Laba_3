@@ -27,15 +27,17 @@ namespace Laba_3
     /// </summary>
     public partial class MainWindow 
     {
-       
+
+        private FileReaderWriter fileReaderWriter;
        
         public MainWindow()
         {
+            fileReaderWriter = new FileReaderWriter(new DefaultDialogService());
             InitializeComponent();
            
         }
 
-        FileReaderWriter fileReaderWriter = new FileReaderWriter(new DefaultDialogService());
+      
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -61,29 +63,15 @@ namespace Laba_3
 
         }
 
-        private string alph;
-        private string rb = "";
-        private string regex;
+        
 
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            if (radioButtonRus.IsChecked == true)
-            {
-                alph = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-                regex = "^[А-Яа-я]+$";
-                rb = $"{radioButtonRus.Content}";
-            }
-            else
-            {
-                alph = "abcdefghiklmnorqrttvxyz";
-                regex = "^[A-Za-z]+$";
-                rb = $"{radioButtonAng.Content}";
-            }
-
-            VigenereCipher vg = new VigenereCipher(alph);
            
-            if (!string.IsNullOrWhiteSpace(texBoxKey.Text) && (Regex.Match(texBoxKey.Text, regex).Success))
+            VigenereCipher vg = new VigenereCipher((bool)radioButtonRus.IsChecked);
+           
+            if (!string.IsNullOrWhiteSpace(texBoxKey.Text) && (Regex.Match(texBoxKey.Text, vg.regex).Success))
             {
                
                 if (!string.IsNullOrWhiteSpace(textBoxWrite.Text))
@@ -93,7 +81,7 @@ namespace Laba_3
             }
             else
             {            
-                MessageBox.Show($"Введите корректный ключ на {rb}");
+                MessageBox.Show($"Введите корректный ключ на {vg.message}");
             }
                 
         }
@@ -101,20 +89,10 @@ namespace Laba_3
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            if (radioButtonRus.IsChecked == true)
-            {
-                alph = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-                regex = "^[А-Яа-я]+$";
-                rb = $"{radioButtonRus.Content}";
-            }
-            else
-            {
-                alph = "abcdefghiklmnorqrttvxyz";
-                regex = "^[A-Za-z]+$";
-                rb = $"{radioButtonAng.Content}";
-            }
-            VigenereCipher vg = new VigenereCipher(alph);
-            if (!string.IsNullOrWhiteSpace(texBoxKey.Text) && (Regex.Match(texBoxKey.Text, regex).Success))
+            
+            VigenereCipher vg = new VigenereCipher((bool)radioButtonRus.IsChecked);
+
+            if (!string.IsNullOrWhiteSpace(texBoxKey.Text) && (Regex.Match(texBoxKey.Text, vg.regex).Success))
             {
                              
                 if (!string.IsNullOrWhiteSpace(textBoxWrite.Text))
@@ -124,7 +102,7 @@ namespace Laba_3
             }
             else
             {
-                MessageBox.Show($"Введите корректный ключ на {rb}");
+                MessageBox.Show($"Введите корректный ключ на {vg.message}");
             }
         }
 

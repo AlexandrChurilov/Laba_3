@@ -18,19 +18,19 @@ namespace Laba_3
 {
     public class FileReaderWriter
     {
-        private IDialogService _dialogService;
-        private bool open = true;
+        private readonly IDialogService _dialogService;
+        private bool _open;
 
         public FileReaderWriter(IDialogService dialogService)
         {
             _dialogService = dialogService;
-
+            _open = true;
         }
 
         private string FileRead(string path)
         {
             
-            if (open && new[] { ".docx" }.Contains(Path.GetExtension(path).ToLower()))
+            if (_open && new[] { ".docx" }.Contains(Path.GetExtension(path).ToLower()))
             {
 
                 using (WordprocessingDocument wordDoc = WordprocessingDocument.Open(path, true))
@@ -54,7 +54,7 @@ namespace Laba_3
         public string FileOpen()
 
         {
-            open = _dialogService.OpenFileDialog();
+            _open = _dialogService.OpenFileDialog();
 
             if (!string.IsNullOrWhiteSpace(_dialogService.FilePath))
             {

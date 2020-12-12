@@ -10,13 +10,34 @@ namespace Laba_3
     {
         
         private string _alphabet;
+        public string regex;
+        
 
-        public VigenereCipher(string alphabet )
+        private const string russianAlph = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+        private const string engAlph = "abcdefghiklmnorqrttvxyz";
+
+
+        private const string russianReg = "^[А-Яа-я]+$";
+        private const string engReg = "^[A-Za-z]+$";
+
+        private  bool alphRussian;
+
+        public string CurrentAlp => alphRussian ? russianAlph : engAlph;
+        public string CurrentRegex => alphRussian ? russianReg : engReg;
+        public string message;
+
+
+
+
+        public VigenereCipher(bool rB)
         {
-            _alphabet = alphabet;
+            alphRussian = rB;
+            _alphabet = CurrentAlp;
+            regex = CurrentRegex;
+           message = rB ? "Кириллица" : "Латиница";
         }
 
-        
+
         private string GetKey(string str, int count)
         {
             string k = str;
@@ -30,15 +51,8 @@ namespace Laba_3
 
         private string Vigenere(string text, string keyCipher, bool encrAndDecr)
         {
-            int encrypt = 0;
-            if(encrAndDecr)
-            {
-                encrypt = 1;
-            }
-            else
-            {
-                encrypt = -1;
-            }
+            
+            var encrypt = encrAndDecr ? 1 : -1;
 
             int alphabetCount = _alphabet.Length;
             string key = GetKey(keyCipher, text.Length);
@@ -65,20 +79,9 @@ namespace Laba_3
             return stringV;
         }
 
-        public string Encrypt(string text, string key)
-        { 
-            
-            return Vigenere(text, key, true);
-        }
+        public string Encrypt(string text, string key) => Vigenere(text, key, true);
 
-
-
-        public string Decrypt(string text, string key)
-        { 
-            
-            return Vigenere(text, key, false);
-        }
-        
+        public string Decrypt(string text, string key) => Vigenere(text, key, false);
 
     }
 }
